@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		79CB38511D6B593A00533F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB38501D6B593A00533F39 /* AppDelegate.swift */; };
-		79CB38531D6B593A00533F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB38521D6B593A00533F39 /* ViewController.swift */; };
 		79CB38561D6B593A00533F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38541D6B593A00533F39 /* Main.storyboard */; };
 		79CB38581D6B593A00533F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38571D6B593A00533F39 /* Assets.xcassets */; };
 		79CB385B1D6B593A00533F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38591D6B593A00533F39 /* LaunchScreen.storyboard */; };
+		79CB38631D6B5A9A00533F39 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB38621D6B5A9A00533F39 /* SettingsViewController.swift */; };
+		79CB38681D6B5CC900533F39 /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38641D6B5CC900533F39 /* appstore.png */; };
+		79CB38691D6B5CC900533F39 /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38651D6B5CC900533F39 /* books.png */; };
+		79CB386A1D6B5CC900533F39 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38661D6B5CC900533F39 /* music.png */; };
+		79CB386B1D6B5CC900533F39 /* updates.png in Resources */ = {isa = PBXBuildFile; fileRef = 79CB38671D6B5CC900533F39 /* updates.png */; };
+		79CB386D1D6B5F1E00533F39 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB386C1D6B5F1E00533F39 /* SettingsTableViewCell.swift */; };
+		79CB386F1D6B602F00533F39 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB386E1D6B602F00533F39 /* Setting.swift */; };
+		79CB38711D6B61F400533F39 /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CB38701D6B61F400533F39 /* SettingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79CB384D1D6B593A00533F39 /* Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Settings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79CB38501D6B593A00533F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		79CB38521D6B593A00533F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		79CB38551D6B593A00533F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79CB38571D6B593A00533F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79CB385A1D6B593A00533F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79CB385C1D6B593A00533F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CB38621D6B5A9A00533F39 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
+		79CB38641D6B5CC900533F39 /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		79CB38651D6B5CC900533F39 /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
+		79CB38661D6B5CC900533F39 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		79CB38671D6B5CC900533F39 /* updates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = updates.png; sourceTree = "<group>"; };
+		79CB386C1D6B5F1E00533F39 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		79CB386E1D6B602F00533F39 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		79CB38701D6B61F400533F39 /* SettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				79CB38501D6B593A00533F39 /* AppDelegate.swift */,
-				79CB38521D6B593A00533F39 /* ViewController.swift */,
 				79CB38541D6B593A00533F39 /* Main.storyboard */,
+				79CB386E1D6B602F00533F39 /* Setting.swift */,
+				79CB38701D6B61F400533F39 /* SettingController.swift */,
+				79CB38621D6B5A9A00533F39 /* SettingsViewController.swift */,
+				79CB386C1D6B5F1E00533F39 /* SettingsTableViewCell.swift */,
 				79CB38571D6B593A00533F39 /* Assets.xcassets */,
 				79CB38591D6B593A00533F39 /* LaunchScreen.storyboard */,
 				79CB385C1D6B593A00533F39 /* Info.plist */,
+				79CB38641D6B5CC900533F39 /* appstore.png */,
+				79CB38651D6B5CC900533F39 /* books.png */,
+				79CB38661D6B5CC900533F39 /* music.png */,
+				79CB38671D6B5CC900533F39 /* updates.png */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -122,9 +143,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CB38691D6B5CC900533F39 /* books.png in Resources */,
 				79CB385B1D6B593A00533F39 /* LaunchScreen.storyboard in Resources */,
+				79CB38681D6B5CC900533F39 /* appstore.png in Resources */,
+				79CB386B1D6B5CC900533F39 /* updates.png in Resources */,
 				79CB38581D6B593A00533F39 /* Assets.xcassets in Resources */,
 				79CB38561D6B593A00533F39 /* Main.storyboard in Resources */,
+				79CB386A1D6B5CC900533F39 /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79CB38531D6B593A00533F39 /* ViewController.swift in Sources */,
+				79CB38711D6B61F400533F39 /* SettingController.swift in Sources */,
 				79CB38511D6B593A00533F39 /* AppDelegate.swift in Sources */,
+				79CB38631D6B5A9A00533F39 /* SettingsViewController.swift in Sources */,
+				79CB386F1D6B602F00533F39 /* Setting.swift in Sources */,
+				79CB386D1D6B5F1E00533F39 /* SettingsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
